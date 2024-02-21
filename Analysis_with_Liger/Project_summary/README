@@ -1,0 +1,16 @@
+Total number of replicates - 
+    WT genotype = 4
+    RCOg genotype = 6
+
+RCO-expressing cells - Total 22 cells
+    WT - COL0 - 1st experiment = 0 cells
+    WT - COL0 - 2nd experiment = 0 cells
+    WT - COL0 - 3rd experiment = 0 cells
+    WT - COL0 - 5th experiment = 0 cells
+    RCOg - 3rd experiment = 0 cell
+    RCOg - 5th experiment = 2 cells (1 read each)
+    RCOg - 6th experiment = 3 cells (1 read - 2 cells, 3 reads - 1 cell)
+    RCOg - 7th experiment = 7 cells (1 read - 6 cells, 2 reads - 1 cell)
+    RCOg - 8th experiment = 9 cells (1 read - 5 cells, 2 reads - 3 cells, 3 reads - 1 cell)
+    RCOg - 10th experiment = 1 cell (1 read)
+
