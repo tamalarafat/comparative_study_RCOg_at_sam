@@ -1,0 +1,2601 @@
+Sender: LSF System <hpcadmin@hpc008.cluster.local>
+Subject: Job 4798245: <C1> Done
+
+Job <C1> was submitted from host <hpc007.cluster.local> by user <ytamal2> in cluster <hpc000>.
+Job was executed on host(s) <2*hpc008.cluster.local>, in queue <deptsiantis>, as user <ytamal2> in cluster <hpc000>.
+</home/ytamal2> was used as the home directory.
+</netscratch/dep_tsiantis/grp_laurent/tamal/2024/scRNA_projects/comparative_study_RCOg_at_sam/Analysis_with_default_parameters/3_Covert_to_seurat_object> was used as the working directory.
+Started at Mon Feb 26 17:49:16 2024
+Results reported at Mon Feb 26 21:35:28 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+Rscript 3_convert_to_seurat_object.R
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time   :  13527.49 sec.
+    Max Memory :     31887 MB
+    Max Swap   :     33132 MB
+
+    Max Processes  :         3
+    Max Threads    :         6
+
+The output (if any) follows:
+
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Library_handler/Load_libraries.R
+value   List,1                                                                                               
+visible FALSE                                                                                                
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Library_handler/load_rdata.R
+value   ?                                                                                                
+visible FALSE                                                                                            
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Library_handler/version_checker.R
+value   ?                                                                                                     
+visible FALSE                                                                                                 
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/basis_heatmap.R
+value   ?                                                                                                                 
+visible FALSE                                                                                                             
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/Basis_to_GEP_generator.R
+value   ?                                                                                                                          
+visible FALSE                                                                                                                      
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/calc_alignment_and_agreement.R
+value   ?                                                                                                                                
+visible FALSE                                                                                                                            
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/calculate_GEP_specificity_for_groups.R
+value   ?                                                                                                                                        
+visible FALSE                                                                                                                                    
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/cells_per_cluster_split_viz.R
+value   ?                                                                                                                               
+visible FALSE                                                                                                                           
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/characteristic_GEP_of_cells.R
+value   ?                                                                                                                               
+visible FALSE                                                                                                                           
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/clus_tree_of_cell_clusters.R
+value   ?                                                                                                                              
+visible FALSE                                                                                                                          
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/clus_tree_of_coefficient_clusters.R
+value   ?                                                                                                                                     
+visible FALSE                                                                                                                                 
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/clus_tree_of_GEPs.R
+value   ?                                                                                                                     
+visible FALSE                                                                                                                 
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/clus_tree_series_of_seurat_objects.R
+value   ?                                                                                                                                      
+visible FALSE                                                                                                                                  
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/coef_heatmap.R
+value   ?                                                                                                                
+visible FALSE                                                                                                            
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/feature_count_n_proportion.R
+value   ?                                                                                                                              
+visible FALSE                                                                                                                          
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/feature_expression_split_visualization.R
+value   ?                                                                                                                                          
+visible FALSE                                                                                                                                      
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/features_weight_across_clusters.R
+value   ?                                                                                                                                   
+visible FALSE                                                                                                                               
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/fileGenerator.R
+value   ?                                                                                                                 
+visible FALSE                                                                                                             
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/gene_clustering_of_nmfObject.R
+value   ?                                                                                                                                
+visible FALSE                                                                                                                            
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/generate_mean_var_liger.R
+value   ?                                                                                                                           
+visible FALSE                                                                                                                       
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/genes_feature_plot.R
+value   ?                                                                                                                      
+visible FALSE                                                                                                                  
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/GEP_generator.R
+value   ?                                                                                                                 
+visible FALSE                                                                                                             
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/get_conserved_DEGs_details_thaliana.R
+value   ?                                                                                                                                       
+visible FALSE                                                                                                                                   
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/get_conserved_DEGs_details.R
+value   ?                                                                                                                              
+visible FALSE                                                                                                                          
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/get_DEGs_details.R
+value   ?                                                                                                                    
+visible FALSE                                                                                                                
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/get_variableGenes_info.R
+value   ?                                                                                                                          
+visible FALSE                                                                                                                      
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/GO_annotation_basis_genes.R
+value   ?                                                                                                                             
+visible FALSE                                                                                                                         
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/GO_annotation_nmf_basis.R
+value   ?                                                                                                                           
+visible FALSE                                                                                                                       
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/GO_annotation_of_genes.R
+value   ?                                                                                                                          
+visible FALSE                                                                                                                      
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/group_proportion_per_cluster.R
+value   ?                                                                                                                                
+visible FALSE                                                                                                                            
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/heatmap_cells_coefficient.R
+value   ?                                                                                                                             
+visible FALSE                                                                                                                         
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/liger_to_seurat_conversion.R
+value   ?                                                                                                                              
+visible FALSE                                                                                                                          
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/map_factor_loadings.R
+value   ?                                                                                                                       
+visible FALSE                                                                                                                   
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/markers_dot_plot.R
+value   ?                                                                                                                    
+visible FALSE                                                                                                                
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/optimize_to_new_K.R
+value   ?                                                                                                                     
+visible FALSE                                                                                                                 
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/order_factorized_matrix.R
+value   ?                                                                                                                           
+visible FALSE                                                                                                                       
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/Ortho_data_generator.R
+value   ?                                                                                                                        
+visible FALSE                                                                                                                    
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/RDimension_plot.R
+value   ?                                                                                                                   
+visible FALSE                                                                                                               
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/RDimension_split_group_visualization.R
+value   ?                                                                                                                                        
+visible FALSE                                                                                                                                    
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/replicate_proportion_per_cluster.R
+value   ?                                                                                                                                    
+visible FALSE                                                                                                                                
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/resolution_explorer_series_of_seurat_objects.R
+value   ?                                                                                                                                                
+visible FALSE                                                                                                                                            
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/resolution_explorer.R
+value   ?                                                                                                                       
+visible FALSE                                                                                                                   
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/scale_coefficient.R
+value   ?                                                                                                                     
+visible FALSE                                                                                                                 
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/seurat_FindVariableFeatures.default.R
+value   ?                                                                                                                                       
+visible FALSE                                                                                                                                   
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/side_by_side_proportion_comparison.R
+value   ?                                                                                                                                      
+visible FALSE                                                                                                                                  
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/transform_coef_to_s4.R
+value   ?                                                                                                                        
+visible FALSE                                                                                                                    
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/variableGenes_liger.R
+value   ?                                                                                                                       
+visible FALSE                                                                                                                   
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/variableGenes_seurat.R
+value   ?                                                                                                                        
+visible FALSE                                                                                                                    
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/venn_generator_multiple_to_multiple.R
+value   ?                                                                                                                                       
+visible FALSE                                                                                                                                   
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/venn_generator_multiple_to_one.R
+value   ?                                                                                                                                  
+visible FALSE                                                                                                                              
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_marker_identification/between_groups_differentially_expressed_genes.R
+value   ?                                                                                                                                                   
+visible FALSE                                                                                                                                               
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_marker_identification/candidate_markers_DEGs.R
+value   ?                                                                                                                            
+visible FALSE                                                                                                                        
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_marker_identification/candidate_markers_GEP_and_DEGs.R
+value   ?                                                                                                                                    
+visible FALSE                                                                                                                                
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_marker_identification/candidate_markers_GEP.R
+value   ?                                                                                                                           
+visible FALSE                                                                                                                       
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_marker_identification/cluster_basis_genes.R
+value   ?                                                                                                                         
+visible FALSE                                                                                                                     
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_marker_identification/cluster_conserved_marker_finder.R
+value   ?                                                                                                                                     
+visible FALSE                                                                                                                                 
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_marker_identification/cluster_marker_finder.R
+value   ?                                                                                                                           
+visible FALSE                                                                                                                       
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_marker_identification/get_GEP_genes.R
+value   ?                                                                                                                   
+visible FALSE                                                                                                               
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_marker_identification/group_n_cluster_DEG_finder.R
+value   ?                                                                                                                                
+visible FALSE                                                                                                                            
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_marker_identification/select_candidates.R
+value   ?                                                                                                                       
+visible FALSE                                                                                                                   
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_marker_identification/specific_conserved_marker_finder.R
+value   ?                                                                                                                                      
+visible FALSE                                                                                                                                  
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_marker_identification/specific_marker_finder.R
+value   ?                                                                                                                            
+visible FALSE                                                                                                                        
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_marker_identification/target_chaser.R
+value   ?                                                                                                                   
+visible FALSE                                                                                                               
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1115048
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9661
+Number of communities: 10
+Elapsed time: 14 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1115048
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9523
+Number of communities: 14
+Elapsed time: 14 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1115048
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9426
+Number of communities: 17
+Elapsed time: 14 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1115048
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9351
+Number of communities: 21
+Elapsed time: 15 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1115048
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9290
+Number of communities: 23
+Elapsed time: 15 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1115048
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9236
+Number of communities: 25
+Elapsed time: 15 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1115048
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9185
+Number of communities: 28
+Elapsed time: 15 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1115048
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9135
+Number of communities: 30
+Elapsed time: 15 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1115048
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9088
+Number of communities: 33
+Elapsed time: 15 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1115048
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9048
+Number of communities: 33
+Elapsed time: 14 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1115048
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9007
+Number of communities: 38
+Elapsed time: 15 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1115048
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.8969
+Number of communities: 42
+Elapsed time: 15 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1129806
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9654
+Number of communities: 11
+Elapsed time: 16 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1129806
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9512
+Number of communities: 13
+Elapsed time: 16 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1129806
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9414
+Number of communities: 18
+Elapsed time: 16 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1129806
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9341
+Number of communities: 22
+Elapsed time: 15 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1129806
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9271
+Number of communities: 24
+Elapsed time: 16 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1129806
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9214
+Number of communities: 26
+Elapsed time: 16 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1129806
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9161
+Number of communities: 30
+Elapsed time: 16 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1129806
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9110
+Number of communities: 30
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1129806
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9068
+Number of communities: 32
+Elapsed time: 16 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1129806
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9024
+Number of communities: 37
+Elapsed time: 16 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1129806
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.8983
+Number of communities: 39
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1129806
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.8948
+Number of communities: 40
+Elapsed time: 19 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1125275
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9661
+Number of communities: 12
+Elapsed time: 21 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1125275
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9526
+Number of communities: 16
+Elapsed time: 21 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1125275
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9424
+Number of communities: 18
+Elapsed time: 20 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1125275
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9348
+Number of communities: 22
+Elapsed time: 21 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1125275
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9284
+Number of communities: 25
+Elapsed time: 21 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1125275
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9225
+Number of communities: 27
+Elapsed time: 21 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1125275
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9172
+Number of communities: 31
+Elapsed time: 22 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1125275
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9124
+Number of communities: 32
+Elapsed time: 22 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1125275
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9080
+Number of communities: 34
+Elapsed time: 22 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1125275
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9036
+Number of communities: 35
+Elapsed time: 22 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1125275
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9000
+Number of communities: 40
+Elapsed time: 23 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1125275
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.8965
+Number of communities: 40
+Elapsed time: 22 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1144489
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9652
+Number of communities: 11
+Elapsed time: 20 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1144489
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9517
+Number of communities: 16
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1144489
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9416
+Number of communities: 19
+Elapsed time: 19 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1144489
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9339
+Number of communities: 22
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1144489
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9275
+Number of communities: 25
+Elapsed time: 20 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1144489
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9218
+Number of communities: 27
+Elapsed time: 19 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1144489
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9164
+Number of communities: 32
+Elapsed time: 19 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1144489
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9116
+Number of communities: 30
+Elapsed time: 19 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1144489
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9075
+Number of communities: 33
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1144489
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9031
+Number of communities: 36
+Elapsed time: 19 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1144489
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.8991
+Number of communities: 38
+Elapsed time: 19 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1144489
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.8955
+Number of communities: 38
+Elapsed time: 20 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1160229
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9661
+Number of communities: 11
+Elapsed time: 15 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1160229
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9525
+Number of communities: 14
+Elapsed time: 16 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1160229
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9422
+Number of communities: 20
+Elapsed time: 15 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1160229
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9345
+Number of communities: 21
+Elapsed time: 15 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1160229
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9276
+Number of communities: 23
+Elapsed time: 15 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1160229
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9209
+Number of communities: 26
+Elapsed time: 15 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1160229
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9156
+Number of communities: 30
+Elapsed time: 16 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1160229
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9109
+Number of communities: 30
+Elapsed time: 16 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1160229
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9064
+Number of communities: 32
+Elapsed time: 16 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1160229
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9022
+Number of communities: 37
+Elapsed time: 16 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1160229
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.8983
+Number of communities: 38
+Elapsed time: 16 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1160229
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.8947
+Number of communities: 41
+Elapsed time: 16 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1166776
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9650
+Number of communities: 12
+Elapsed time: 15 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1166776
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9513
+Number of communities: 17
+Elapsed time: 15 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1166776
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9420
+Number of communities: 20
+Elapsed time: 15 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1166776
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9337
+Number of communities: 21
+Elapsed time: 15 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1166776
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9269
+Number of communities: 26
+Elapsed time: 16 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1166776
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9207
+Number of communities: 29
+Elapsed time: 15 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1166776
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9146
+Number of communities: 30
+Elapsed time: 16 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1166776
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9101
+Number of communities: 31
+Elapsed time: 16 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1166776
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9052
+Number of communities: 36
+Elapsed time: 15 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1166776
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9012
+Number of communities: 38
+Elapsed time: 16 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1166776
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.8976
+Number of communities: 41
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1166776
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.8946
+Number of communities: 42
+Elapsed time: 16 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1169761
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9655
+Number of communities: 11
+Elapsed time: 15 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1169761
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9520
+Number of communities: 15
+Elapsed time: 16 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1169761
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9418
+Number of communities: 20
+Elapsed time: 15 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1169761
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9341
+Number of communities: 23
+Elapsed time: 16 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1169761
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9273
+Number of communities: 25
+Elapsed time: 15 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1169761
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9206
+Number of communities: 29
+Elapsed time: 16 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1169761
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9152
+Number of communities: 29
+Elapsed time: 16 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1169761
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9102
+Number of communities: 33
+Elapsed time: 16 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1169761
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9055
+Number of communities: 34
+Elapsed time: 16 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1169761
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9017
+Number of communities: 38
+Elapsed time: 16 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1169761
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.8979
+Number of communities: 39
+Elapsed time: 16 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1169761
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.8940
+Number of communities: 44
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1168900
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9658
+Number of communities: 14
+Elapsed time: 15 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1168900
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9523
+Number of communities: 16
+Elapsed time: 15 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1168900
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9427
+Number of communities: 18
+Elapsed time: 15 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1168900
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9342
+Number of communities: 21
+Elapsed time: 16 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1168900
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9274
+Number of communities: 25
+Elapsed time: 16 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1168900
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9216
+Number of communities: 28
+Elapsed time: 16 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1168900
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9154
+Number of communities: 31
+Elapsed time: 15 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1168900
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9100
+Number of communities: 33
+Elapsed time: 15 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1168900
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9050
+Number of communities: 33
+Elapsed time: 16 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1168900
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9008
+Number of communities: 36
+Elapsed time: 16 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1168900
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.8969
+Number of communities: 40
+Elapsed time: 16 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1168900
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.8932
+Number of communities: 44
+Elapsed time: 16 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1189127
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9649
+Number of communities: 11
+Elapsed time: 19 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1189127
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9519
+Number of communities: 16
+Elapsed time: 20 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1189127
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9417
+Number of communities: 19
+Elapsed time: 20 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1189127
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9337
+Number of communities: 23
+Elapsed time: 19 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1189127
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9275
+Number of communities: 25
+Elapsed time: 20 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1189127
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9219
+Number of communities: 27
+Elapsed time: 20 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1189127
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9156
+Number of communities: 30
+Elapsed time: 19 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1189127
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9104
+Number of communities: 32
+Elapsed time: 22 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1189127
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9056
+Number of communities: 36
+Elapsed time: 22 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1189127
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9018
+Number of communities: 41
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1189127
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.8975
+Number of communities: 41
+Elapsed time: 16 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1189127
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.8936
+Number of communities: 44
+Elapsed time: 16 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1176480
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9646
+Number of communities: 11
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1176480
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9521
+Number of communities: 16
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1176480
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9412
+Number of communities: 18
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1176480
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9323
+Number of communities: 22
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1176480
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9242
+Number of communities: 23
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1176480
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9178
+Number of communities: 26
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1176480
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9124
+Number of communities: 28
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1176480
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9061
+Number of communities: 27
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1176480
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9005
+Number of communities: 29
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1176480
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.8955
+Number of communities: 33
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1176480
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.8909
+Number of communities: 35
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1176480
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.8871
+Number of communities: 41
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1194568
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9645
+Number of communities: 10
+Elapsed time: 16 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1194568
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9509
+Number of communities: 14
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1194568
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9404
+Number of communities: 20
+Elapsed time: 16 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1194568
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9332
+Number of communities: 22
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1194568
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9256
+Number of communities: 24
+Elapsed time: 16 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1194568
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9190
+Number of communities: 26
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1194568
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9124
+Number of communities: 29
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1194568
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9073
+Number of communities: 31
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1194568
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9025
+Number of communities: 35
+Elapsed time: 16 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1194568
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.8978
+Number of communities: 34
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1194568
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.8934
+Number of communities: 35
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1194568
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.8891
+Number of communities: 39
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1200128
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9645
+Number of communities: 10
+Elapsed time: 16 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1200128
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9512
+Number of communities: 14
+Elapsed time: 15 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1200128
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9403
+Number of communities: 18
+Elapsed time: 16 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1200128
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9326
+Number of communities: 25
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1200128
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9256
+Number of communities: 25
+Elapsed time: 16 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1200128
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9189
+Number of communities: 28
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1200128
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9130
+Number of communities: 30
+Elapsed time: 16 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1200128
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9077
+Number of communities: 32
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1200128
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9029
+Number of communities: 37
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1200128
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.8984
+Number of communities: 37
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1200128
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.8949
+Number of communities: 39
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1200128
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.8907
+Number of communities: 40
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1183056
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9624
+Number of communities: 13
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1183056
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9491
+Number of communities: 17
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1183056
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9379
+Number of communities: 20
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1183056
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9299
+Number of communities: 25
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1183056
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9230
+Number of communities: 27
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1183056
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9168
+Number of communities: 30
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1183056
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9109
+Number of communities: 29
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1183056
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9055
+Number of communities: 31
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1183056
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9008
+Number of communities: 36
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1183056
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.8960
+Number of communities: 37
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1183056
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.8920
+Number of communities: 38
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1183056
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.8884
+Number of communities: 41
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1175210
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9637
+Number of communities: 11
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1175210
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9508
+Number of communities: 15
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1175210
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9401
+Number of communities: 18
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1175210
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9315
+Number of communities: 21
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1175210
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9235
+Number of communities: 21
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1175210
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9175
+Number of communities: 26
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1175210
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9110
+Number of communities: 28
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1175210
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9053
+Number of communities: 32
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1175210
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9003
+Number of communities: 36
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1175210
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.8964
+Number of communities: 38
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1175210
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.8924
+Number of communities: 40
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1175210
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.8890
+Number of communities: 40
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1182020
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9631
+Number of communities: 11
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1182020
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9502
+Number of communities: 15
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1182020
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9389
+Number of communities: 18
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1182020
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9304
+Number of communities: 22
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1182020
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9228
+Number of communities: 24
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1182020
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9172
+Number of communities: 27
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1182020
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9109
+Number of communities: 30
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1182020
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9059
+Number of communities: 31
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1182020
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9016
+Number of communities: 34
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1182020
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.8971
+Number of communities: 36
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1182020
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.8931
+Number of communities: 38
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1182020
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.8893
+Number of communities: 39
+Elapsed time: 19 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1170634
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9634
+Number of communities: 12
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1170634
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9498
+Number of communities: 17
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1170634
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9399
+Number of communities: 20
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1170634
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9310
+Number of communities: 20
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1170634
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9248
+Number of communities: 24
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1170634
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9185
+Number of communities: 29
+Elapsed time: 19 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1170634
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9133
+Number of communities: 28
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1170634
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9083
+Number of communities: 34
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1170634
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9040
+Number of communities: 36
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1170634
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.8997
+Number of communities: 36
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1170634
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.8959
+Number of communities: 39
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1170634
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.8917
+Number of communities: 40
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1175456
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9640
+Number of communities: 12
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1175456
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9505
+Number of communities: 17
+Elapsed time: 19 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1175456
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9414
+Number of communities: 20
+Elapsed time: 19 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1175456
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9323
+Number of communities: 26
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1175456
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9255
+Number of communities: 27
+Elapsed time: 19 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1175456
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9204
+Number of communities: 31
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1175456
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9147
+Number of communities: 33
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1175456
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9099
+Number of communities: 34
+Elapsed time: 19 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1175456
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9056
+Number of communities: 37
+Elapsed time: 19 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1175456
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9010
+Number of communities: 39
+Elapsed time: 19 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1175456
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.8973
+Number of communities: 41
+Elapsed time: 19 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1175456
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.8933
+Number of communities: 43
+Elapsed time: 19 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1181128
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9635
+Number of communities: 11
+Elapsed time: 16 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1181128
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9497
+Number of communities: 19
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1181128
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9399
+Number of communities: 21
+Elapsed time: 16 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1181128
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9312
+Number of communities: 25
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1181128
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9248
+Number of communities: 27
+Elapsed time: 16 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1181128
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9190
+Number of communities: 32
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1181128
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9142
+Number of communities: 34
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1181128
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9087
+Number of communities: 34
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1181128
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9042
+Number of communities: 36
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1181128
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.8995
+Number of communities: 40
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1181128
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.8963
+Number of communities: 43
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1181128
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.8920
+Number of communities: 41
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1182561
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9629
+Number of communities: 12
+Elapsed time: 21 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1182561
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9494
+Number of communities: 19
+Elapsed time: 22 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1182561
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9395
+Number of communities: 22
+Elapsed time: 22 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1182561
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9308
+Number of communities: 25
+Elapsed time: 22 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1182561
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9237
+Number of communities: 28
+Elapsed time: 22 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1182561
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9174
+Number of communities: 29
+Elapsed time: 22 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1182561
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9122
+Number of communities: 33
+Elapsed time: 22 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1182561
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9072
+Number of communities: 36
+Elapsed time: 21 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1182561
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9023
+Number of communities: 36
+Elapsed time: 23 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1182561
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.8974
+Number of communities: 37
+Elapsed time: 22 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1182561
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.8930
+Number of communities: 41
+Elapsed time: 22 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1182561
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.8896
+Number of communities: 42
+Elapsed time: 22 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1182058
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9628
+Number of communities: 11
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1182058
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9495
+Number of communities: 17
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1182058
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9397
+Number of communities: 21
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1182058
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9313
+Number of communities: 24
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1182058
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9237
+Number of communities: 28
+Elapsed time: 19 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1182058
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9173
+Number of communities: 30
+Elapsed time: 19 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1182058
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9116
+Number of communities: 36
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1182058
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9072
+Number of communities: 35
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1182058
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9027
+Number of communities: 37
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1182058
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.8985
+Number of communities: 39
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1182058
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.8936
+Number of communities: 40
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1182058
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.8898
+Number of communities: 42
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1192596
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9637
+Number of communities: 12
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1192596
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9509
+Number of communities: 19
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1192596
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9419
+Number of communities: 23
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1192596
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9335
+Number of communities: 24
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1192596
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9261
+Number of communities: 27
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1192596
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9197
+Number of communities: 30
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1192596
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9143
+Number of communities: 32
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1192596
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9098
+Number of communities: 35
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1192596
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9050
+Number of communities: 38
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1192596
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9005
+Number of communities: 37
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1192596
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.8959
+Number of communities: 39
+Elapsed time: 16 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1192596
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.8920
+Number of communities: 44
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1192596
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9637
+Number of communities: 12
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1192596
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9509
+Number of communities: 19
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1192596
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9419
+Number of communities: 23
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1192596
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9335
+Number of communities: 24
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1192596
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9261
+Number of communities: 27
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1192596
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9197
+Number of communities: 30
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1192596
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9143
+Number of communities: 32
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1192596
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9098
+Number of communities: 35
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1192596
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9050
+Number of communities: 38
+Elapsed time: 18 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1192596
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.9005
+Number of communities: 37
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1192596
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.8959
+Number of communities: 39
+Elapsed time: 17 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 31702
+Number of edges: 1192596
+
+Running Louvain algorithm...
+Maximum modularity in 50 random starts: 0.8920
+Number of communities: 44
+Elapsed time: 17 seconds
+
+
+PS:
+
+Read file <C1e> for stderr output of this job.
+
