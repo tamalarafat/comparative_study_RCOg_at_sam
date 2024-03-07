@@ -20,10 +20,22 @@ load("/netscratch/dep_tsiantis/grp_laurent/tamal/2024/scRNA_projects/comparative
 
 Idents(integrated.data) <- "RNA_snn_res.0.2"
 
-stm_cells = WhichCells(object = integrated.data, )
+stm_cells = WhichCells(object = integrated.data, expression = AT1G62360 > 0)
+
+rco_cells = WhichCells(object = integrated.data, expression = AT5G67651 > 0)
+
+cells_to_keep = rownames(integrated.data@meta.data)[!rownames(integrated.data@meta.data) %in% stm_cells]
+
+integrated.data$cell_ID = rownames(integrated.data@meta.data)
 
 
+# Remove all the stm expressing cells before performing differential expression analysis between RCO-expressing cells and the rest
 
+# Subset the seurat object
+integrated.data = subset(integrated.data, subset = cell_ID %in% cells_to_keep)
 
+cells_to_compare = cells_to_keep[!cells_to_keep %in% rco_cells]
 
-cluster_conserved_marker_finder(seuratObject = integrated.data, grouping_variable = "Genotypes", store_dir = res_dir, DEGtest = "wilcox")
+rco_markers = FindMarkers(integrated.data, ident.1 = rco_cells, ident.2 = cells_to_compare, test.use = "wilcox", only.pos = FALSE, logfc.threshold = 0.001, min.pct = 0.001)
+
+save(rco_cells_markers, file = "rco_cells_markers.RData")
