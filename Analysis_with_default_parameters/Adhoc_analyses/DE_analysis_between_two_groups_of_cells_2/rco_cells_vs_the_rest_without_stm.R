@@ -36,11 +36,6 @@ integrated.data = subset(integrated.data, subset = cell_ID %in% cells_to_keep)
 
 cells_to_compare = cells_to_keep[!cells_to_keep %in% rco_cells]
 
-integrated.data$exp_rco <- "1"
-Idents(integrated.data) <- "exp_rco"
+rco_markers = FindMarkers(integrated.data, ident.1 = rco_cells, ident.2 = cells_to_compare, test.use = "wilcox", only.pos = FALSE, logfc.threshold = 0.001, min.pct = 0.001)
 
-Idents(object = integrated.data, cells = cells_to_compare) <- "0"
-
-rco_markers = FindMarkers(integrated.data, ident.1 = "1", ident.2 = "0", test.use = "wilcox", only.pos = FALSE, logfc.threshold = 0.01, min.pct = 0.01)
-
-save(rco_markers, file = "rco_cells_markers.RData")
+save(rco_cells_markers, file = "rco_cells_markers.RData")

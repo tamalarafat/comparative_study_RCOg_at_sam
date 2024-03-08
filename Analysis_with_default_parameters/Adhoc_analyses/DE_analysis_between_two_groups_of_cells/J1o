@@ -1,0 +1,450 @@
+Sender: LSF System <hpcadmin@hpc008.cluster.local>
+Subject: Job 4820384: <J1> Exited
+
+Job <J1> was submitted from host <hpc007.cluster.local> by user <ytamal2> in cluster <hpc000>.
+Job was executed on host(s) <5*hpc008.cluster.local>, in queue <deptsiantis>, as user <ytamal2> in cluster <hpc000>.
+</home/ytamal2> was used as the home directory.
+</netscratch/dep_tsiantis/grp_laurent/tamal/2024/scRNA_projects/comparative_study_RCOg_at_sam/Analysis_with_default_parameters/Adhoc_analyses/DE_analysis_between_two_groups_of_cells> was used as the working directory.
+Started at Thu Mar  7 17:12:35 2024
+Results reported at Thu Mar  7 19:31:50 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+Rscript rco_cells_vs_the_rest_without_stm.R
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time   :   8340.22 sec.
+    Max Memory :      9391 MB
+    Max Swap   :     10026 MB
+
+    Max Processes  :         3
+    Max Threads    :         5
+
+The output (if any) follows:
+
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Library_handler/Load_libraries.R
+value   List,1                                                                                               
+visible FALSE                                                                                                
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Library_handler/load_rdata.R
+value   ?                                                                                                
+visible FALSE                                                                                            
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Library_handler/version_checker.R
+value   ?                                                                                                     
+visible FALSE                                                                                                 
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/basis_heatmap.R
+value   ?                                                                                                                 
+visible FALSE                                                                                                             
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/Basis_to_GEP_generator.R
+value   ?                                                                                                                          
+visible FALSE                                                                                                                      
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/calc_alignment_and_agreement.R
+value   ?                                                                                                                                
+visible FALSE                                                                                                                            
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/calculate_GEP_specificity_for_groups.R
+value   ?                                                                                                                                        
+visible FALSE                                                                                                                                    
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/cells_per_cluster_split_viz.R
+value   ?                                                                                                                               
+visible FALSE                                                                                                                           
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/characteristic_GEP_of_cells.R
+value   ?                                                                                                                               
+visible FALSE                                                                                                                           
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/clus_tree_of_cell_clusters.R
+value   ?                                                                                                                              
+visible FALSE                                                                                                                          
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/clus_tree_of_coefficient_clusters.R
+value   ?                                                                                                                                     
+visible FALSE                                                                                                                                 
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/clus_tree_of_GEPs.R
+value   ?                                                                                                                     
+visible FALSE                                                                                                                 
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/clus_tree_series_of_seurat_objects.R
+value   ?                                                                                                                                      
+visible FALSE                                                                                                                                  
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/coef_heatmap.R
+value   ?                                                                                                                
+visible FALSE                                                                                                            
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/feature_count_n_proportion.R
+value   ?                                                                                                                              
+visible FALSE                                                                                                                          
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/feature_expression_split_visualization.R
+value   ?                                                                                                                                          
+visible FALSE                                                                                                                                      
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/features_weight_across_clusters.R
+value   ?                                                                                                                                   
+visible FALSE                                                                                                                               
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/fileGenerator.R
+value   ?                                                                                                                 
+visible FALSE                                                                                                             
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/gene_clustering_of_nmfObject.R
+value   ?                                                                                                                                
+visible FALSE                                                                                                                            
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/generate_mean_var_liger.R
+value   ?                                                                                                                           
+visible FALSE                                                                                                                       
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/genes_feature_plot.R
+value   ?                                                                                                                      
+visible FALSE                                                                                                                  
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/GEP_generator.R
+value   ?                                                                                                                 
+visible FALSE                                                                                                             
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/get_conserved_DEGs_details_thaliana.R
+value   ?                                                                                                                                       
+visible FALSE                                                                                                                                   
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/get_conserved_DEGs_details.R
+value   ?                                                                                                                              
+visible FALSE                                                                                                                          
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/get_DEGs_details.R
+value   ?                                                                                                                    
+visible FALSE                                                                                                                
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/get_variableGenes_info.R
+value   ?                                                                                                                          
+visible FALSE                                                                                                                      
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/GO_annotation_basis_genes.R
+value   ?                                                                                                                             
+visible FALSE                                                                                                                         
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/GO_annotation_nmf_basis.R
+value   ?                                                                                                                           
+visible FALSE                                                                                                                       
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/GO_annotation_of_genes.R
+value   ?                                                                                                                          
+visible FALSE                                                                                                                      
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/group_proportion_per_cluster.R
+value   ?                                                                                                                                
+visible FALSE                                                                                                                            
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/heatmap_cells_coefficient.R
+value   ?                                                                                                                             
+visible FALSE                                                                                                                         
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/liger_to_seurat_conversion.R
+value   ?                                                                                                                              
+visible FALSE                                                                                                                          
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/map_factor_loadings.R
+value   ?                                                                                                                       
+visible FALSE                                                                                                                   
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/markers_dot_plot.R
+value   ?                                                                                                                    
+visible FALSE                                                                                                                
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/optimize_to_new_K.R
+value   ?                                                                                                                     
+visible FALSE                                                                                                                 
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/order_factorized_matrix.R
+value   ?                                                                                                                           
+visible FALSE                                                                                                                       
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/Ortho_data_generator.R
+value   ?                                                                                                                        
+visible FALSE                                                                                                                    
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/RDimension_plot.R
+value   ?                                                                                                                   
+visible FALSE                                                                                                               
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/RDimension_split_group_visualization.R
+value   ?                                                                                                                                        
+visible FALSE                                                                                                                                    
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/replicate_proportion_per_cluster.R
+value   ?                                                                                                                                    
+visible FALSE                                                                                                                                
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/resolution_explorer_series_of_seurat_objects.R
+value   ?                                                                                                                                                
+visible FALSE                                                                                                                                            
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/resolution_explorer.R
+value   ?                                                                                                                       
+visible FALSE                                                                                                                   
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/scale_coefficient.R
+value   ?                                                                                                                     
+visible FALSE                                                                                                                 
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/seurat_FindVariableFeatures.default.R
+value   ?                                                                                                                                       
+visible FALSE                                                                                                                                   
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/side_by_side_proportion_comparison.R
+value   ?                                                                                                                                      
+visible FALSE                                                                                                                                  
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/transform_coef_to_s4.R
+value   ?                                                                                                                        
+visible FALSE                                                                                                                    
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/variableGenes_liger.R
+value   ?                                                                                                                       
+visible FALSE                                                                                                                   
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/variableGenes_seurat.R
+value   ?                                                                                                                        
+visible FALSE                                                                                                                    
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/venn_generator_multiple_to_multiple.R
+value   ?                                                                                                                                       
+visible FALSE                                                                                                                                   
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/venn_generator_multiple_to_one.R
+value   ?                                                                                                                                  
+visible FALSE                                                                                                                              
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_marker_identification/between_groups_differentially_expressed_genes.R
+value   ?                                                                                                                                                   
+visible FALSE                                                                                                                                               
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_marker_identification/candidate_markers_DEGs.R
+value   ?                                                                                                                            
+visible FALSE                                                                                                                        
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_marker_identification/candidate_markers_GEP_and_DEGs.R
+value   ?                                                                                                                                    
+visible FALSE                                                                                                                                
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_marker_identification/candidate_markers_GEP.R
+value   ?                                                                                                                           
+visible FALSE                                                                                                                       
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_marker_identification/cluster_basis_genes.R
+value   ?                                                                                                                         
+visible FALSE                                                                                                                     
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_marker_identification/cluster_conserved_marker_finder.R
+value   ?                                                                                                                                     
+visible FALSE                                                                                                                                 
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_marker_identification/cluster_marker_finder.R
+value   ?                                                                                                                           
+visible FALSE                                                                                                                       
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_marker_identification/get_GEP_genes.R
+value   ?                                                                                                                   
+visible FALSE                                                                                                               
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_marker_identification/group_n_cluster_DEG_finder.R
+value   ?                                                                                                                                
+visible FALSE                                                                                                                            
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_marker_identification/select_candidates.R
+value   ?                                                                                                                       
+visible FALSE                                                                                                                   
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_marker_identification/specific_conserved_marker_finder.R
+value   ?                                                                                                                                      
+visible FALSE                                                                                                                                  
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_marker_identification/specific_marker_finder.R
+value   ?                                                                                                                            
+visible FALSE                                                                                                                        
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_marker_identification/target_chaser.R
+value   ?                                                                                                                   
+visible FALSE                                                                                                               
+
+
+PS:
+
+Read file <J1e> for stderr output of this job.
+
+Sender: LSF System <hpcadmin@hpc008.cluster.local>
+Subject: Job 4841369: <J1> Done
+
+Job <J1> was submitted from host <hpc007.cluster.local> by user <ytamal2> in cluster <hpc000>.
+Job was executed on host(s) <5*hpc008.cluster.local>, in queue <deptsiantis>, as user <ytamal2> in cluster <hpc000>.
+</home/ytamal2> was used as the home directory.
+</netscratch/dep_tsiantis/grp_laurent/tamal/2024/scRNA_projects/comparative_study_RCOg_at_sam/Analysis_with_default_parameters/Adhoc_analyses/DE_analysis_between_two_groups_of_cells> was used as the working directory.
+Started at Fri Mar  8 12:43:03 2024
+Results reported at Fri Mar  8 14:31:09 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+Rscript rco_cells_vs_the_rest_without_stm.R
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time   :   6474.55 sec.
+    Max Memory :      9380 MB
+    Max Swap   :     10027 MB
+
+    Max Processes  :         3
+    Max Threads    :         5
+
+The output (if any) follows:
+
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Library_handler/Load_libraries.R
+value   List,1                                                                                               
+visible FALSE                                                                                                
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Library_handler/load_rdata.R
+value   ?                                                                                                
+visible FALSE                                                                                            
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Library_handler/version_checker.R
+value   ?                                                                                                     
+visible FALSE                                                                                                 
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/basis_heatmap.R
+value   ?                                                                                                                 
+visible FALSE                                                                                                             
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/Basis_to_GEP_generator.R
+value   ?                                                                                                                          
+visible FALSE                                                                                                                      
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/calc_alignment_and_agreement.R
+value   ?                                                                                                                                
+visible FALSE                                                                                                                            
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/calculate_GEP_specificity_for_groups.R
+value   ?                                                                                                                                        
+visible FALSE                                                                                                                                    
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/cells_per_cluster_split_viz.R
+value   ?                                                                                                                               
+visible FALSE                                                                                                                           
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/characteristic_GEP_of_cells.R
+value   ?                                                                                                                               
+visible FALSE                                                                                                                           
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/clus_tree_of_cell_clusters.R
+value   ?                                                                                                                              
+visible FALSE                                                                                                                          
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/clus_tree_of_coefficient_clusters.R
+value   ?                                                                                                                                     
+visible FALSE                                                                                                                                 
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/clus_tree_of_GEPs.R
+value   ?                                                                                                                     
+visible FALSE                                                                                                                 
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/clus_tree_series_of_seurat_objects.R
+value   ?                                                                                                                                      
+visible FALSE                                                                                                                                  
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/coef_heatmap.R
+value   ?                                                                                                                
+visible FALSE                                                                                                            
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/feature_count_n_proportion.R
+value   ?                                                                                                                              
+visible FALSE                                                                                                                          
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/feature_expression_split_visualization.R
+value   ?                                                                                                                                          
+visible FALSE                                                                                                                                      
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/features_weight_across_clusters.R
+value   ?                                                                                                                                   
+visible FALSE                                                                                                                               
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/fileGenerator.R
+value   ?                                                                                                                 
+visible FALSE                                                                                                             
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/gene_clustering_of_nmfObject.R
+value   ?                                                                                                                                
+visible FALSE                                                                                                                            
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/generate_mean_var_liger.R
+value   ?                                                                                                                           
+visible FALSE                                                                                                                       
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/genes_feature_plot.R
+value   ?                                                                                                                      
+visible FALSE                                                                                                                  
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/GEP_generator.R
+value   ?                                                                                                                 
+visible FALSE                                                                                                             
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/get_conserved_DEGs_details_thaliana.R
+value   ?                                                                                                                                       
+visible FALSE                                                                                                                                   
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/get_conserved_DEGs_details.R
+value   ?                                                                                                                              
+visible FALSE                                                                                                                          
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/get_DEGs_details.R
+value   ?                                                                                                                    
+visible FALSE                                                                                                                
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/get_variableGenes_info.R
+value   ?                                                                                                                          
+visible FALSE                                                                                                                      
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/GO_annotation_basis_genes.R
+value   ?                                                                                                                             
+visible FALSE                                                                                                                         
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/GO_annotation_nmf_basis.R
+value   ?                                                                                                                           
+visible FALSE                                                                                                                       
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/GO_annotation_of_genes.R
+value   ?                                                                                                                          
+visible FALSE                                                                                                                      
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/group_proportion_per_cluster.R
+value   ?                                                                                                                                
+visible FALSE                                                                                                                            
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/heatmap_cells_coefficient.R
+value   ?                                                                                                                             
+visible FALSE                                                                                                                         
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/liger_to_seurat_conversion.R
+value   ?                                                                                                                              
+visible FALSE                                                                                                                          
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/map_factor_loadings.R
+value   ?                                                                                                                       
+visible FALSE                                                                                                                   
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/markers_dot_plot.R
+value   ?                                                                                                                    
+visible FALSE                                                                                                                
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/optimize_to_new_K.R
+value   ?                                                                                                                     
+visible FALSE                                                                                                                 
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/order_factorized_matrix.R
+value   ?                                                                                                                           
+visible FALSE                                                                                                                       
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/Ortho_data_generator.R
+value   ?                                                                                                                        
+visible FALSE                                                                                                                    
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/RDimension_plot.R
+value   ?                                                                                                                   
+visible FALSE                                                                                                               
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/RDimension_split_group_visualization.R
+value   ?                                                                                                                                        
+visible FALSE                                                                                                                                    
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/replicate_proportion_per_cluster.R
+value   ?                                                                                                                                    
+visible FALSE                                                                                                                                
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/resolution_explorer_series_of_seurat_objects.R
+value   ?                                                                                                                                                
+visible FALSE                                                                                                                                            
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/resolution_explorer.R
+value   ?                                                                                                                       
+visible FALSE                                                                                                                   
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/scale_coefficient.R
+value   ?                                                                                                                     
+visible FALSE                                                                                                                 
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/seurat_FindVariableFeatures.default.R
+value   ?                                                                                                                                       
+visible FALSE                                                                                                                                   
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/side_by_side_proportion_comparison.R
+value   ?                                                                                                                                      
+visible FALSE                                                                                                                                  
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/transform_coef_to_s4.R
+value   ?                                                                                                                        
+visible FALSE                                                                                                                    
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/variableGenes_liger.R
+value   ?                                                                                                                       
+visible FALSE                                                                                                                   
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/variableGenes_seurat.R
+value   ?                                                                                                                        
+visible FALSE                                                                                                                    
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/venn_generator_multiple_to_multiple.R
+value   ?                                                                                                                                       
+visible FALSE                                                                                                                                   
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_matrix_manipulation/venn_generator_multiple_to_one.R
+value   ?                                                                                                                                  
+visible FALSE                                                                                                                              
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_marker_identification/between_groups_differentially_expressed_genes.R
+value   ?                                                                                                                                                   
+visible FALSE                                                                                                                                               
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_marker_identification/candidate_markers_DEGs.R
+value   ?                                                                                                                            
+visible FALSE                                                                                                                        
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_marker_identification/candidate_markers_GEP_and_DEGs.R
+value   ?                                                                                                                                    
+visible FALSE                                                                                                                                
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_marker_identification/candidate_markers_GEP.R
+value   ?                                                                                                                           
+visible FALSE                                                                                                                       
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_marker_identification/cluster_basis_genes.R
+value   ?                                                                                                                         
+visible FALSE                                                                                                                     
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_marker_identification/cluster_conserved_marker_finder.R
+value   ?                                                                                                                                     
+visible FALSE                                                                                                                                 
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_marker_identification/cluster_marker_finder.R
+value   ?                                                                                                                           
+visible FALSE                                                                                                                       
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_marker_identification/get_GEP_genes.R
+value   ?                                                                                                                   
+visible FALSE                                                                                                               
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_marker_identification/group_n_cluster_DEG_finder.R
+value   ?                                                                                                                                
+visible FALSE                                                                                                                            
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_marker_identification/select_candidates.R
+value   ?                                                                                                                       
+visible FALSE                                                                                                                   
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_marker_identification/specific_conserved_marker_finder.R
+value   ?                                                                                                                                      
+visible FALSE                                                                                                                                  
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_marker_identification/specific_marker_finder.R
+value   ?                                                                                                                            
+visible FALSE                                                                                                                        
+        /home/ytamal2/Documents/2023/PhD_projects_Yasir/scExplorer/Functions/Functions_marker_identification/target_chaser.R
+value   ?                                                                                                                   
+visible FALSE                                                                                                               
+
+
+PS:
+
+Read file <J1e> for stderr output of this job.
+
